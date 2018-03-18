@@ -19,11 +19,14 @@ public class Main {
         String output = (new Main()).readRawDataToString();
         ItemParser parser = new ItemParser();
 
+        System.out.println(parser.displayGroceryListToString());
 
-        for (Map.Entry<String, ArrayList<Item>> mapKey : parser.getGroceryList().entrySet()) {
-            System.out.println(mapKey.getKey());
-            for (Item item : mapKey.getValue()) {
-                System.out.println(item.getPrice());
+
+//        for (Map.Entry<String, ArrayList<Item>> mapKey : parser.getGroceryList().entrySet()) {
+//            System.out.println(mapKey.getKey());
+//            for (Item item : mapKey.getValue()) {
+//                System.out.println(item.getPrice());
+
             }
         }
 
@@ -40,6 +43,4 @@ public class Main {
 //                for (String s1 : arrayWithoutVariousCharacters){
 //                    System.out.println(s1);
 //                }
-        }
-    }
 
