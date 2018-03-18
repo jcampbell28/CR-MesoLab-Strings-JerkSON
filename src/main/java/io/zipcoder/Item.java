@@ -23,21 +23,25 @@ public class Item {
     }
 
     public String getName() {
+
         return name;
     }
 
 
     public Double getPrice() {
+
         return price;
     }
 
 
     public String getType() {
+
         return type;
     }
 
 
     public String getExpiration() {
+
         return expiration;
     }
 
